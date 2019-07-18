@@ -23,7 +23,11 @@ if [[ -z $(aws s3 ls | grep "$SITE") ]]; then
   aws s3api put-bucket-versioning --bucket "$SITE" --versioning-configuration Status=Enabled
 fi
 
-aws s3 cp ${WORKINGDIR}/site/ s3://${SITE}/ --recursive 
+aws s3 sync ${WORKINGDIR}/site/ s3://${SITE}/
+
+aws s3 website s3://${SITE}/ --index-document index.html --error-document error.html
+
+aws s3api put-bucket-policy --bucket ${SITE} --policy file://policy.json
 
 exit 0
 
