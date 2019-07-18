@@ -5,31 +5,57 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="assets" href="https://github.githubassets.com/">
-    <link crossorigin="anonymous" media="all" integrity="sha512-67V2J9Se2CifJlftk9/cExHGvxd7N9b9EdGnQEpszu99Ogeecilu9jIDxoCkx3zNLfB9ArraXW0J03qyVmN0Uw==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-e7318add1f7e055d040edb0f75aaa0ba.css">
-    <link crossorigin="anonymous" media="all" integrity="sha512-SI2e2P722UiXIVItz+cTy3QfWlbRuiqrkZssd9VtUdjcDpT8V2Z3urVvT8l4gJ7XIHg/X34gRZ0wfEb8XryoCw==" rel="stylesheet" href="https://github.githubassets.com/assets/github-69dc93ccffff3486181d61d118507d6c.css">
+    <link crossorigin="anonymous" media="all" integrity="sha512-67V2J9Se2CifJlftk9/cExHGvxd7N9b9EdGnQEpszu99Ogeecilu9jIDxoCkx3zNLfB9ArraXW0J03qyVmN0Uw==" rel="stylesheet" href="css/frameworks-e7318add1f7e055d040edb0f75aaa0ba.css">
+    <link crossorigin="anonymous" media="all" integrity="sha512-SI2e2P722UiXIVItz+cTy3QfWlbRuiqrkZssd9VtUdjcDpT8V2Z3urVvT8l4gJ7XIHg/X34gRZ0wfEb8XryoCw==" rel="stylesheet" href="css/github-69dc93ccffff3486181d61d118507d6c.css">
     <style>
+      :root {
+        font-weight: 600;
+        font-size: 100%;
+        box-sizing: content-box;
+        line-height: 1.3rem;
+      }
+
+      body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+        "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      }
+
+      h1, h2, h3, h4 {
+        padding: 1.3rem 0;
+      }
+
+      code {
+        color: #1a1a1b;
+        background-color: rgba(215, 218, 220, 0.75);
+        font-weight: 800;
+      }
+
       a,a:visited,a:active {
         color: #4296ca;
         text-decoration: none;
       }
+
       a:hover {
         text-decoration: underline;
       }
     </style>
   </head>
-  <body style="max-width: 70rem; margin: auto; flex: auto; display: flex; background-color: #030303; color: white;" >
-    <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1><a id="user-content-real-world-hacking-in-the-tv-show-mr-robot" class="anchor" aria-hidden="true" href="#real-world-hacking-in-the-tv-show-mr-robot"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Real World Hacking in the TV Show <a href="https://www.imdb.com/title/tt4158110/?ref_=nv_sr_1?ref_=nv_sr_1" style="color: #4296ca;" rel="nofollow">Mr. Robot</a></h1>
-      <h2><a id="user-content-reconnaissance" class="anchor" aria-hidden="true" href="#reconnaissance"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reconnaissance</h2>
+  <body style="max-width: 70rem; margin: auto; flex: auto; display: flex; background-color: #1a1a1b; color: white;" >
+    <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1><a id="user-content-real-world-hacking-in-the-tv-show-mr-robot" class="anchor" aria-hidden="true" href="#real-world-hacking-in-the-tv-show-mr-robot"></a>Real World Hacking in the TV Show <a href="https://www.imdb.com/title/tt4158110/?ref_=nv_sr_1?ref_=nv_sr_1" style="color: #4296ca;" rel="nofollow">Mr. Robot</a></h1>
+      <h2>Reconnaissance</h2>
       <p><a target="_blank" rel="noopener noreferrer" href="images/mr_robot_volatility.png"><img src="images/mr_robot_volatility.png" alt="Reconnaissance" style="max-width:100%;"></a></p>
       <p>In this screenshot from <strong>Mr. Robot</strong>, Elliot runs <a href="https://www.volatilityfoundation.org/" rel="nofollow"><code>volatility</code></a> (a forensics tool used to dump and analyze a system's memory).
         <br />
         <br />
         Based on the command's output, it seems he's trying to find the address in memory of a <code>dynamically linked library</code> (a library that a program will ask the system to find when it loads, instead of one that is bundled with a program to use directly) used to detect hardware (e.g. disks, keyboard, mouse, network and graphics cards, etc.). In this case, the <em><code>dll</code></em> seems to be <code>libhd.so</code>.
         I assume this is so he can control data coming or going from system devices (such as the keyboard or mouse). For example, this may be for a <code>keylogger</code> to spy on anything the user types on their keyboard.</p>
-      <h2><a id="user-content-weaponization" class="anchor" aria-hidden="true" href="#weaponization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Weaponization</h2>
+      <h2>Weaponization</h2>
       <p><a target="_blank" rel="noopener noreferrer" href="images/mr_robot_shellcode.png" alt="Weaponization" style="max-width:100%;"><img src="images/mr_robot_shellcode.png" alt="Weaponization" style="max-width:100%;"></a></p>
       <p>In this screenshot from <strong>Mr. Robot</strong>, Elliot is injecting <a href="https://en.m.wikipedia.org/wiki/Shellcode" rel="nofollow"><strong><code>shellcode</code></strong></a> - <a href="https://en.m.wikipedia.org/wiki/Hexadecimal" rel="nofollow"><code>hexadecimal</code></a> - a base16 numbering system - encoded computer instructions - that will be used to <strong>exploit a PDF vulnerability.</strong> The PDF will be sent to a victim who will be compromised after they open the file.</p>
-      <h2><a id="user-content-exfiltration" class="anchor" aria-hidden="true" href="#exfiltration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Exfiltration</h2>
+      <h2>Exfiltration</h2>
       <p><a target="_blank" rel="noopener noreferrer" href="images/mr_robot_keylogger.png" alt="Exfiltration" style="max-width:100%;"><img src="images/mr_robot_keylogger.png" alt="Exfiltration" style="max-width:100%;"></a></p>
       <p>In this screenshot from <strong>Mr. Robot</strong>, Elliot is reading the <strong>keylogger</strong> data he has stored on the victim's machine in a file called <em><code>/dev/nu11</code></em>.
         <br />
