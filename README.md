@@ -20,7 +20,7 @@ on anything the victim types on their keyboard, for example.
 ![Weaponization](./site/images/mr_robot_shellcode.png)
 
 In this screenshot from **Mr. Robot**, Elliot is injecting [**`shellcode`**](https://en.m.wikipedia.org/wiki/Shellcode) ([`hexadecimal`](https://en.m.wikipedia.org/wiki/Hexadecimal) - a base16
-numbering system - encoded computer instructions) that will be used to **exploit a PDF vulnerability.**
+numbering system - encoded computer instructions) that **exploit a PDF vulnerability.**
 The PDF is later to a victim who is compromised after they open the file.
 
 ## Exfiltration
